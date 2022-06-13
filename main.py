@@ -5,8 +5,8 @@ keep_alive()
 
 plugins = dict(root="plugins")
 
-id = os.environ['api_id']
-hash = os.environ['api_hash']
+id = '3124927'
+hash = 'fdb6d907685bd444efabd9bc2697b4cc'
 
 app = Client(
     "my_account",
