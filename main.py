@@ -1,7 +1,5 @@
 from pyrogram import Client, filters
 import os
-from keep_alive import keep_alive
-keep_alive()
 
 plugins = dict(root="plugins")
 
