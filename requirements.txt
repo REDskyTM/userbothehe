@@ -25,4 +25,4 @@ typing==3.7.4.3
 machine2human==0.0.4
 pytz==2022.1
 gtts==2.2.4
-requests==2.20.1
+requests==2.25.1
