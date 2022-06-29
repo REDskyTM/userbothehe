@@ -8,7 +8,6 @@ import time, datetime
 import os
 import requests
 import wget
-from qbittorrent import *
 
 from aiogram.utils.markdown import quote_html
 from meval import meval
@@ -107,11 +106,3 @@ async def whao_cmd(app, msg):
 async def torrentdown_cmd(app, msg):
 	await msg.reply_to_message.download()
 
-
-qb = Client("http://127.0.0.1:8080/")
-
-# put the credentials (as you configured)
-qb.login("admin", "adminadmin")
-
-torrent_file = open("torrent", "rb")
-qb.download_from_file(torrent_file)
