@@ -21,9 +21,9 @@ imageio==2.19.3
 meval==2.5
 wget==3.2
 aiogram==2.21
-googletrans=3.0.0
-speedtest=0.0.1
-typing=3.7.4.3
+googletrans==3.0.0
+speedtest==0.0.1
+typing==3.7.4.3
 machine2human==0.0.4
 pytz==20.22.1
 gtts==2.2.4
