@@ -26,4 +26,4 @@ speedtest=0.0.1
 typing=3.7.4.3
 machine2human==0.0.4
 pytz==20.22.1
-gtts=2.2.4
+gtts==2.2.4
