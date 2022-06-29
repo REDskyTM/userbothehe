@@ -13,7 +13,7 @@ class Help:
     }
 
 
-@Client.on_message(filters.me & filters.command("upt", Client.prefix))
+@Client.on_message(filters.me & filters.command("upt", "."))
 async def uptime_handler(_, msg: types.Message):
     timer = os.popen("cat /proc/uptime").read()
     timer = float(timer.split()[0])
