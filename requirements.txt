@@ -14,4 +14,16 @@ tgcrypto==1.2.3
 Flask==2.1.2
 pillow==9.1.1
 imageio==2.19.3
-numpy==1.22.4
+numpy==1.23.0
+lottie==0.6.11
+requets==2.27.1
+imageio==2.19.3
+meval==2.5
+wget==3.2
+aiogram==2.21
+googletrans=3.0.0
+speedtest=0.0.1
+typing=3.7.4.3
+machine2human==0.0.4
+pytz==20.22.1
+gtts=2.2.4
